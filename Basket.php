@@ -25,7 +25,13 @@
             width: 90%;
             max-width: 800px;
         }
-        
+        /* zum Test */
+        .cart-header {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 20px;
+        }
         .cart-header {
             font-size: 2rem;
             font-weight: bold;
@@ -100,6 +106,10 @@
         }
     </style>
 </head>
+
+<header>
+<h1>DAS IST DER L_STORE IHR FICKER</h1>
+    </header>
 
 <body>
     <!-- Warenkorb Container -->
