@@ -108,7 +108,7 @@
 </head>
 
 <header>
-<h1>DAS IST DER L_STORE IHR FICKER</h1>
+<h1>DAS IST DER L-STORE IHR FICKER</h1>
     </header>
 
 <body>
