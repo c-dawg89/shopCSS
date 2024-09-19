@@ -25,7 +25,12 @@
             width: 90%;
             max-width: 800px;
         }
-
+        .cart-header {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 20px;
+        }
         .cart-header {
             font-size: 2rem;
             font-weight: bold;
