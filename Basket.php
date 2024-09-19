@@ -112,7 +112,7 @@
                 <h4>Whisky - Glenfiddich 18 Jahre</h4>
                 <p>Preis: 89,99 €</p>
             </div>
-            <div>
+            <div style="display: flex; align-items: center;">
                 <!-- Mengenfeld -->
                 <input type="number" class="form-control quantity-input" value="1" min="1" max="30" step="1" onchange="updateTotal()">
                 <button class="btn remove-button">Entfernen</button>
@@ -124,7 +124,7 @@
                 <h4>Rotwein - Château Margaux 2015</h4>
                 <p>Preis: 249,99 €</p>
             </div>
-            <div>
+            <div style="display: flex; align-items: center;">
                 <!-- Mengenfeld -->
                 <input type="number" class="form-control quantity-input" value="1" min="1" max="30" step="1" onchange="updateTotal()">
                 <button class="btn remove-button">Entfernen</button>

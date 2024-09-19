@@ -72,15 +72,15 @@
 </head>
 
 <body>
-    <!-- Fancy Header -->
+    
     <div class="header-container">
         <h1 class="header-title">Liquor Shop</h1>
         <p class="header-subtitle">Exquisite Spirits & Fine Wines</p>
     </div>
 
-    <!-- Fancy Header Image -->
+    
     <div class="header-image">
-        <img src="shopCSS/bilder/bild.jpg" alt="Liquor Shop" class="img-fluid">
+        <img src="./shopCSS/bilder/bild.jpg" alt="Liquor Shop" class="img-fluid">
     </div>
 
     <div class="login-container">
