@@ -103,3 +103,34 @@
 </body>
 
 </html>
+
+
+<?php
+// PHP Data Objects(PDO) Sample Code:
+try {
+    $conn = new PDO("sqlsrv:server = tcp:liquor-store.database.windows.net,1433; Database = DB_SHOP_LIQUOR_STORE", "admin_db_liquor_store", "3UaL!f§KZHpuHe4v$P)6PgtS");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    print("Error connecting to SQL Server.");
+    die(print_r($e));
+}
+
+// Daten aus dem Formular erhalten
+$email = $_POST['email'];
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+// Beispielabfrage zum Einfügen der Registrierungsdaten
+$sql = "INSERT INTO users (email, username, password) VALUES (?, ?, ?)";
+$stmt = $conn->prepare($sql);
+$params = array($email, $username, $password);
+
+if ($stmt->execute($params)) {
+    echo "Registrierung erfolgreich!";
+} else {
+    echo "Fehler bei der Registrierung.";
+}
+
+// Verbindung schließen
+$conn = null;
+?>
