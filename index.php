@@ -2,6 +2,9 @@
 <html lang="de">
 
 <head>
+
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Index Page</title> <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <style> body { background-image: url('bilder/bild.png'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 100vh; margin: 0; } </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ihr Besen Shop - Login</title>
